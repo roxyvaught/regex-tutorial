@@ -18,6 +18,7 @@ This tutorial will discuss and explain each component of this regex.
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
+- [Conclusion](#conclusion)
 - [References](#references)
 
 ## Regex Components
@@ -60,6 +61,9 @@ The third, `[a-z\.]`, - means that any characters between a through z will be ma
 
 ### Greedy and Lazy Match
 Greedy and lazy qualifiers allow you to find the "greedy" (longest) and "lazy" (shortest) match. Our example shows `+` as the greedy match since it ensures a search of as many matches as possible for decimal numbers, alphabateical characters, and hyphens. 
+
+### Conclusion
+This tutorial presented a breakdown of a email matching regex and its components. We divide these components into three major groups that make up our validation expressions. These capture groups are separated by paranthesis and our overall expression contains the commerical at `@` symbol that searches for this character. 
 
 ### References 
 [Javascript.info](https://javascript.info/regular-expressions)<br />
